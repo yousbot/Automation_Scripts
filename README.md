@@ -14,5 +14,5 @@ The following scripts contains :
 
 ___
 
-~ Creator : Youssef Sbai Idrissi
-~ Version : 1.0.0
+# Creator : Youssef Sbai Idrissi
+# Version : 1.0.0
