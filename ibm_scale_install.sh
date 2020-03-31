@@ -6,7 +6,6 @@ echo " "; echo " ";
 
 media_full_path=/tmp/Scale_adv_install-5.0.2.0_x86_64.tar
 extraction_full_path=/tmp/Scale_adv_install-5.0.2.0
-ksh_full_path=/tmp/ksh-20120801-137.el7.x86_64.rpm
 gpfs_install_path=/usr/lpp/mmfs/5.0.2.0/gpfs_rpms/
 gpfs_bin_path=/usr/lpp/mmfs/bin
 
@@ -15,16 +14,8 @@ gpfs_bin_path=/usr/lpp/mmfs/bin
 mkdir -p $extraction_full_path
 tar -xvf $media_full_path -C $extraction_full_path
 $extraction_full_path/Spectrum_Scale_*-x86_64-Linux-install --silent
-rpm -ivh $ksh_full_path
 
-
-yum install ksh
-yum install kerne-devel
-yum install kernel-devel
-yum install c++
-yum install kernel-headers
-yum install cpp
-yum install gcc-c++
+yum install ksh kernel-devel c++ kernel-headers cpp gcc-c++ md4
 
 rpm -ivh $gpfs_install_path/gpfs.base-5.0.2-0.x86_64.rpm 
 rpm -ivh $gpfs_install_path/gpfs.gpl-5.0.2-0.noarch.rpm 
