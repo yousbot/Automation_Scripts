@@ -20,3 +20,10 @@ yum -y localinstall $media_full_path
 /etc/init.d/oracle-xe-18c configure
 chkconfig oracle-xe-18c on
 service oracle-xe-18c start
+
+## Set Env Variable before starting the database
+export ORACLE_HOME=/opt/oracle/product/18c/dbhomeXE
+export ORACLE_SID=XE
+
+## Enter sqlplus
+sqlplus sys as sysdba
