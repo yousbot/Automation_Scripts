@@ -25,5 +25,6 @@ service oracle-xe-18c start
 export ORACLE_HOME=/opt/oracle/product/18c/dbhomeXE
 export ORACLE_SID=XE
 
+## add the following path in your .bash_profile /opt/oracle/product/18c/dbhomeXE/bin/
 ## Enter sqlplus
 sqlplus sys as sysdba
