@@ -18,5 +18,5 @@ echo " Media Exist      :       [ ok ]  "
 yum install -y $preinstall_full_path
 yum -y localinstall $media_full_path
 /etc/init.d/oracle-xe-18c configure
-systemctl start oracle-xe-18c
-systemctl enable oracle-xe-18c
+chkconfig oracle-xe-18c on
+service oracle-xe-18c start
