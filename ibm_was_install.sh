@@ -9,7 +9,7 @@ was_install_dir=/opt/IBM/WAS/AppServer
 sdkmedia_full_path=/tmp/sdk.repo.8030.java8.linux.zip
 sdkextraction_full_path=/tmp/SDK
 
-########################################################################
+#########################################################################
 
 ## Verify Media
 if ! ls $media_full_path || ! ls $sdkmedia_full_path; then
