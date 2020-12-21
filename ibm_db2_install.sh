@@ -5,7 +5,7 @@
 media_full_path=/tmp/DB2Server.10.5.zip
 extraction_full_path=/tmp/DB2
 
-########################################################################
+#########################################################################
 
 ## Verify Media
 if ! ls $media_full_path || ! ls $sdkmedia_full_path; then
