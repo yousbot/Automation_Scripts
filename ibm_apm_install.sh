@@ -7,7 +7,7 @@ media_full_path=/tmp/apm_advanced_8.1.4.0.tar
 extraction_full_path=/tmp/apm
 apm_install_dir=/opt/ibm/apm
 
-########################################################################
+##########################################################################
 
 ## Verify Media
 if ! ls $media_full_path || ! ls $sdkmedia_full_path; then
