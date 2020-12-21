@@ -6,7 +6,7 @@ media_full_path=/tmp/IBM_MQ_9.1.1_LINUX_X86-64.tar.gz
 extraction_full_path=/tmp/IBM_MQ_9.1.1_LINUX_X86-64
 mq_bin_path=
 
-########################################################################
+#########################################################
 
 
 groupadd mqm
