@@ -12,7 +12,7 @@ DMGR_PORT=8879
 DMGR_USER=wasadmin 
 DMGR_PASSWORD=wasadmin 
 
-########################################################################
+#########################################################################
 
 
 $was_install_path/bin/manageprofiles.sh -create \
