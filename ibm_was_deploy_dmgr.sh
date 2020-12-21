@@ -10,7 +10,7 @@ CELL_NAME=$NODE_NAME'Cell'
 DMGR_USER=wasadmin 
 DMGR_PASSWORD=wasadmin 
 
-########################################################################
+#########################################################################
 
 
 $was_install_path/bin/manageprofiles.sh -create \
