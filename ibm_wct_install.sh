@@ -9,7 +9,7 @@ im_path=/opt/IBM/IM
 sdkmedia_full_path=/tmp/sdk.repo.8030.java8.linux.zip
 sdkextraction_full_path=/tmp/SDK
 
-########################################################################
+#########################################################################
 
 ## Verify Media
 if ! ls $media_full_path || ! ls $sdkmedia_full_path; then
