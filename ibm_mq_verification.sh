@@ -1,5 +1,6 @@
 #!/bin/bash
 
+## Setup env values
 . /opt/mqm/bin/setmqenv -s
 
 echo " "; echo " ";
