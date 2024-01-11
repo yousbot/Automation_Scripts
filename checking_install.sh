@@ -8,13 +8,7 @@ for day in {01..2}; do
   # Check if the file exists
   if [[ -f "$FILE" ]]; then
     # Add or remove a dummy comment
-    if grep -q "# Dummy comment" "$FILE"; then
-      # Remove the comment
-      sed -i '' '/# Dummy comment/d' "$FILE"
-    else
-      # Add the comment
-      echo "# Dummy comment" >> "$FILE"
-    fi
+    echo "# Dummy comment" >> "$FILE"
     
     # Stage the file
     git add .
