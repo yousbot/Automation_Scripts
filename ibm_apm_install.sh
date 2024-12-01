@@ -25,7 +25,7 @@ fi
 mkdir -p $extraction_full_path
 tar -xvf $media_full_path -C $extraction_full_path
 
-## Launch Installation of media
+## Launch Installation
 
 umask 0022
 mkdir -p $apm_install_dir
