@@ -30,5 +30,5 @@ su - db2inst1 -c "db2set DB2COMM=tcpip"
 su - db2inst1 -c "db2 update dbm cfg using SVCENAME 50000"
 su - db2inst1 -c "$db2_install_dir/adm/db2start"
 
-# Dummy comment 2.
+# Dummy comment 2..
 
