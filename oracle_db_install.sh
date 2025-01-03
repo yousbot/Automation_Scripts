@@ -1,11 +1,11 @@
 #!/bin/bash
 
-################        ENVIRONMENT VARIABLES           ################
+###########        ENVIRONMENT VARIABLES           ################
 
 media_full_path=/tmp/oracle-database-xe-18c-1.0-1.x86_64.rpm
 preinstall_full_path=/tmp/oracle-database-preinstall-18c-1.0-1.el7.x86_64.rpm
 
-########################################################################
+####################################################################
 
 ## Verify Media
 if ! ls $media_full_path || $preinstall_full_path; then
