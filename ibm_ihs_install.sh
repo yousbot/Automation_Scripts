@@ -22,7 +22,7 @@ echo " Media Exist	:	[ ok ]	"
 mkdir -p $extraction_full_path
 unzip $media_full_path -d $extraction_full_path
 
-## If sdk is already extreacted, don't comment these lines 
+## If sdk is already extreacted, don't comment these lines.
 mkdir -p $sdkextraction_full_path
 unzip $sdkmedia_full_path -d $sdkextraction_full_path
 
