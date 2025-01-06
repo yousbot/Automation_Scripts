@@ -17,8 +17,6 @@ $extraction_full_path/MQServer/mqlicense.sh -accept
 rpm -ivh $extraction_full_path/MQServer/MQSeries*.rpm
 
 
-#clear
-
 echo " "; echo " "; echo " ";
 echo " Installation Finished ! " ; echo " ";
 . /opt/mqm/bin/setmqenv -s
